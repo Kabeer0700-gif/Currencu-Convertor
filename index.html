@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-converter</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="amount">
+            <input type="number" placeholder="Enter your amount">
+        </div>
+
+        <div class="flags">
+            <div class="from">
+                <p>From</p>
+                <div class="image">
+                  <img src=" https://flagsapi.com/US/flat/64.png" alt="">
+                </div>
+                <select  name="countries"  id="From">
+
+                </select>
+                
+            </div>
+            <i class="ri-arrow-left-right-fill"></i>
+            <div class="to">
+                <p>To</p>
+                <div class="image">
+                  <img src=" https://flagsapi.com/PK/flat/64.png" alt="">
+
+                </div>
+                  <select  name="countries" id="To">
+                   
+                 </select>
+               
+            </div>
+        </div>
+
+        <div class="result">Click exchange rate to see the result</div>
+        <button class="btn">Get Exchange Rate</button>
+    </div>
+    <script   src="script.js"></script>
+    <!-- <script src="codes.js"></script> -->
+</body>
+</html>
